@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnyCompany Stream</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="api-box">
+        <div class="api-content" id="apiContent">
+            <!-- Placeholder image and text will be dynamically loaded here -->
+            <div class="api-item">
+                <img src="images/placeholder.jpg" alt="Placeholder Image">
+                <p>This is a placeholder text</p>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="header-content">
+            <h1>Welcome to AnyCompany Stream ▶️</h1>
+        </div>
+    </header>
+    <main>
+        <section class="grid-container" id="contentGrid">
+            <!-- Movie/TV show covers will be dynamically loaded here -->
+            <div class="grid-item">
+                <img src="images/movie1.jpeg" alt="Movie 1">
+            </div>
+            <div class="grid-item">
+                <img src="images/movie2.jpeg" alt="Movie 2">
+            </div>
+            <div class="grid-item">
+                <img src="images/movie3.jpeg" alt="Movie 3">
+            </div>
+            <div class="grid-item">
+                <img src="images/movie4.jpeg" alt="Movie 4">
+            </div>
+            <div class="grid-item">
+                <img src="images/movie5.jpeg" alt="Movie 5">
+            </div>
+            <div class="grid-item">
+                <img src="images/movie6.jpeg" alt="Movie 6">
+            </div>
+            <div class="grid-item">
+                <img src="images/movie7.jpeg" alt="Movie 7">
+            </div>
+            <div class="grid-item">
+                <img src="images/movie8.jpeg" alt="Movie 8">
+            </div>
+            <!-- Add more grid items as needed -->
+        </section>
+    </main>
+    <div class="inputs">
+        <font color="white">user id: </font>
+        <input type="text" id="uname" name="uname">
+        <font color="white">recommendation 1-10: </font>
+        <input type="text" id="invokeURL" name="invokeURL">
+        <button type="button" onclick="callAPI()">Go</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

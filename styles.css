@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+/* Reset default margin and padding */
+body, header, main, section {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set black background */
+body {
+    background-color: #000;
+    color: #fff; /* Set text color to white for better contrast */
+}
+
+/* Center the header content horizontally */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh; /* This ensures that the header takes up the full height of the viewport */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure the grid container takes up the necessary space */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    max-width: 800px; /* Optional: Limit the width of the grid */
+    margin: 0 auto; /* Center the grid horizontally */
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Styles for ads */
+.ad-container {
+    margin-bottom: 20px;
+}
+
+.ad-container img {
+    max-width: 100%;
+}
+
+/* Style for API content rectangle */
+.api-content {
+    background-color: #5f85cb;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add margin between the API box and the grid */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style for the API content */
+.api-content {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the API item */
+.api-item {
+    display: flex;
+    align-items: center;
+}
+
+.api-item img {
+    max-width: 100px; /* Adjust image width as needed */
+    margin-right: 20px; /* Add spacing between image and text */
+}
+
+/* Style for the API box */
+.api-box {
+    background-color: #808ce7;
+    color: #fff;
+    border-radius: 10px;
+    margin: 0 auto 30px; /* Center  the API box horizontally and add margin between the API box and the title */
+    max-width: 700px; /* Limit the width of the API box */
+}
+
+/* Style for the header content */
+.header-content {
+    text-align: center;
+}
+
+/* Style for the header content */
+.header-content h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.inputs{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
