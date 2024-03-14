@@ -9,6 +9,11 @@ body, header, main, section {
 body {
     background-color: #000;
     color: #fff; /* Set text color to white for better contrast */
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 100px 0;
+    background: linear-gradient(to bottom, rgb(0, 0, 135), rgb(2, 2, 2));
 }
 
 /* Center the header content horizontally */
@@ -57,8 +62,8 @@ main {
 
 /* Style for API content rectangle */
 .api-content {
-    background-color: #5f85cb;
-    color: #fff;
+    background-color: #ffffff;
+    color: #00136a;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px; /* Add margin between the API box and the grid */
